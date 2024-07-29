@@ -1,5 +1,6 @@
 #!/bin/bash
 mkdir /root/server
+yum install java-11-amazon-corretto.x86_64 -y
 cd /root/server
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.zip
 cd /root/server/
